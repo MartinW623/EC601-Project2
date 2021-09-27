@@ -1,4 +1,4 @@
-#This funtion is ued to download your home timeline tweets and print each one of their texts to the console.
+#This funtion is used to download your home timeline tweets and print each one of their texts to the console.
 
 import tweepy
 

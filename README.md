@@ -26,4 +26,4 @@ This is the second project of EC601. I will use Twitter API and Google NLP API t
 
 I used tweepy to finish the twitter analysis tool because professor suggested using python to complete.
 
-This project includes testing files and result fileS. The testing file is the function to download your home timeline tweets and print each one of their texts to the console. The result file is the results of the home timeline tweets.
+This project includes testing files and result file. The testing file is the function to download your home timeline tweets and print each one of their texts to the console. The result file is the results of the home timeline tweets.

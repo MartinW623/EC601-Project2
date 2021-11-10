@@ -38,10 +38,6 @@ The result files are the results of the printed home timeline tweets and printed
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 ```
-#### Run the program to get your homeline twitter
-```
-python Homeline_twitter.py
-```
 #### Installing the client library
 - Setting up a python development environment first- [python environment](https://cloud.google.com/python/docs/setup "The tutorial to set up")    
 - Then install the library `pip install --upgrade google-cloud-language`
@@ -53,6 +49,7 @@ python Homeline_twitter.py
   -  `export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`
 ### Run the program
 ```
+python Home_timeline_twitters.py
 python Google_NPL.py Home_timeline_tweets_results.txt
 ```
 ### Get the results

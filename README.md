@@ -54,6 +54,11 @@ python Google_NPL.py Home_timeline_tweets_results.txt
 ```
 ### Get the results
 ```
+This tweet is used to test Twitter API.
+这条推用来测试Twitter API平台。
+...
+```
+```
 Sentence 0 has a sentiment score of -0.10000000149011612
 Sentence 1 has a sentiment score of 0.20000000298023224
 ...

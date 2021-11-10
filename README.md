@@ -43,5 +43,13 @@ The result files are the results of the printed home timeline tweets and printed
   -  `export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`
 ### Run the program
 ```
-python Google_NPL.py file.txt
+python Google_NPL.py Home_timeline_tweets_results.txt
 ```
+### Get the results
+```
+Sentence 0 has a sentiment score of -0.10000000149011612
+Sentence 1 has a sentiment score of 0.20000000298023224
+...
+```
+## ReferenceTweepy: <https://docs.tweepy.org/en/stable/getting_started.html>  
+Google NLP: <https://cloud.google.com/natural-language/docs/reference/libraries#cloud-console>

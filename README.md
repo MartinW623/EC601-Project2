@@ -51,5 +51,6 @@ Sentence 0 has a sentiment score of -0.10000000149011612
 Sentence 1 has a sentiment score of 0.20000000298023224
 ...
 ```
-## ReferenceTweepy: <https://docs.tweepy.org/en/stable/getting_started.html>  
+## Reference
+Tweepy: <https://docs.tweepy.org/en/stable/getting_started.html>  
 Google NLP: <https://cloud.google.com/natural-language/docs/reference/libraries#cloud-console>

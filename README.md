@@ -19,11 +19,29 @@ As a content creator, I need to know the most popular elements at the moment, an
 
 Users can obtain information on the public social media Twitter, and perform sentiment analysis.
 
-***
-### Assignment
 
-This is the second project of EC601. I will use Twitter API and Google NLP API to obtain data and analyze.
+## Assignment
+### Introduction
+This is the second project of EC601. I will use Twitter API and Google NLP API to obtain data form Twitter and analyze its sentiment.
 
-I used tweepy to finish the twitter analysis tool because professor suggested using python to complete.
+I choose tweepy to finish the twitter analysis tool.
 
-This project includes testing files and result file. The testing file is the function to download your home timeline tweets and print each one of their texts to the console. The result file is the results of the home timeline tweets.
+This project includes testing files and result file.  
+The Twitter testing file is the function to download your home timeline tweets and print each one of their texts to the console.  
+The Google NLP testing file is the function to analyze the sentiment of every sentences of the input file.   
+The result files are the results of the printed home timeline tweets and printed sentiment results.  
+
+### Getting Start
+#### Installing the client library
+- Setting up a python development environment first  [python environment](https://cloud.google.com/python/docs/setup "The tutorial to set up")    
+- Then install the library `pip install --upgrade google-cloud-language`
+#### Setting up authentication
+- Create new account and select a project
+- Create a service account key and a JSON key file will be downloaded to your computer
+- Provide authentication credentials to your application code by setting the environment variable`GOOGLE_APPLICATION_CREDENTIALS`
+  - Replace ***`KEY_PATH`*** with the path of the JSON file that contains your service account key.
+  -  `export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"`
+### Run the program
+```
+python Google_NPL.py file.txt
+```

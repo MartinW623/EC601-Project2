@@ -32,6 +32,16 @@ The Google NLP testing file is the function to analyze the sentiment of every se
 The result files are the results of the printed home timeline tweets and printed sentiment results.  
 
 ### Getting Start
+#### Setting up Twitter API authentication
+- Create your own key and access token
+```
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+```
+#### Run the program to get your homeline twitter
+```
+python Homeline_twitter.py
+```
 #### Installing the client library
 - Setting up a python development environment first- [python environment](https://cloud.google.com/python/docs/setup "The tutorial to set up")    
 - Then install the library `pip install --upgrade google-cloud-language`

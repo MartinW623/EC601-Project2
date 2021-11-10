@@ -33,7 +33,7 @@ The result files are the results of the printed home timeline tweets and printed
 
 ### Getting Start
 #### Installing the client library
-- Setting up a python development environment first  [python environment](https://cloud.google.com/python/docs/setup "The tutorial to set up")    
+- Setting up a python development environment first- [python environment](https://cloud.google.com/python/docs/setup "The tutorial to set up")    
 - Then install the library `pip install --upgrade google-cloud-language`
 #### Setting up authentication
 - Create new account and select a project

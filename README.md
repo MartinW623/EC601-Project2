@@ -67,7 +67,7 @@ Sentence 1 has a sentiment score of 0.20000000298023224
 - I write a unit testing program `Unit_test.py` to test whether `Google_NLP.py` could get the right result.  
 - First, import the module **` unittest `** which I choose to use.  
 - Then the function `"asserEqual"` is used to compare if the `"print_result"` function could get the right result.  
-- I also used `time` module to get the running time of every unit of **`unittest`**, which is aimed to illustarte how to implemet time testing function.
+- I also used **`time`** module to get the running time of every unit of **`unittest`**, which is aimed to illustarte how to implemet time testing function.
 
 
 ## Reference

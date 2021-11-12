@@ -5,11 +5,11 @@ This product is designed to help users easily obtain information on public platf
 
 ### User stories：
 
-As a social science researcher, I want to study the emotions expressed by the messages sent by the public on public platforms.
+As a social science researcher, I want to study the views and attitudes of the public when social issue occurrs.
 
 As a parent, I want to judge whether my children who have just entered elementary school will be exposed to electronic devices and social media in advance will be badly affected and induced.
 
-As a politician, I hope to know what the public is most concerned about and what the mainstream views of different politicians and events are.
+As a politician, I hope to know what the public most concern about and what the mainstream views of different politicians and events are.
 
 As a company's decision-maker, I hope that after our company launches a new product, we can get the most authentic user experience from the public.
 

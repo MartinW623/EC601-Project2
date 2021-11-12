@@ -63,6 +63,14 @@ Sentence 0 has a sentiment score of -0.10000000149011612
 Sentence 1 has a sentiment score of 0.20000000298023224
 ...
 ```
+## Project3-Unit test
+- I write a unit testing program `Unit_test.py` to test whether `Google_NLP.py` could get the right result.  
+- First, import the module **` unittest `** which I choose to use.  
+- Then the function `"asserEqual"` is used to compare if the `"print_result"` function could get the right result.  
+- I also used `time` module to get the running time of every unit of **`unittest`**, which is aimed to illustarte how to implemet time testing function.
+
+
 ## Reference
 Tweepy: <https://docs.tweepy.org/en/stable/getting_started.html>  
-Google NLP: <https://cloud.google.com/natural-language/docs/reference/libraries#cloud-console>
+Google NLP: <https://cloud.google.com/natural-language/docs/reference/libraries#cloud-console>  
+Unittest: <https://docs.python.org/3/library/unittest.html>
